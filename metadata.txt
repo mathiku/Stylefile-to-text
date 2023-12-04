@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Style to text
+qgisMinimumVersion=3.0
+description=Converts stylefiles to csv-files
+version=0.1
+author=Mathias Kusk
+email=Mathias.kusk@gmail.com
+
+about=This plugin takes a QML-stylefile and exports a csv-file that can be imported in excel. The csv-file will contain information on the colorcodes making it easy to streamline figures made in QGIS and graphs made in excel.
+
+tracker=https://github.com/mathiku/Stylefile-to-text
+repository=https://github.com/mathiku/Stylefile-to-text
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/mathiku/Stylefile-to-text
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed 
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
