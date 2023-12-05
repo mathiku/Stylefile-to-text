@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/style_to_excel" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
